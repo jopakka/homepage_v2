@@ -1,4 +1,4 @@
-export const ProjectsData = [
+export const SchoolProjectsData = [
     {
         title: "ClimbStation",
         url: "https://github.com/jopakka/climbstation-project",
@@ -34,12 +34,6 @@ export const ProjectsData = [
         url: "https://github.com/jopakka/MeFoodDiary",
         desc: "Food diary",
         img: "./res/mefooddiary.png"
-    },
-    {
-        title: "Kenraali bot",
-        url: "https://github.com/jopakka/Kenraali-bot",
-        desc: "Discord bot",
-        img: "./res/kenraalibot.png"
     },
     {
         title: "Zumo bot",

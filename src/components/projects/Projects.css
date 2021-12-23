@@ -4,12 +4,13 @@
     justify-content: space-evenly;
     align-content: center;
     gap: 20pt;
+    padding-bottom: 2em;
 }
 
 .project-container:after {
     content: "";
     flex-basis: 200pt;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 0;
 }
 

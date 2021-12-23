@@ -1,7 +1,8 @@
 import React from "react";
 import "./Projects.css";
 import {ContentData} from "../../resources/ContentData";
-import {ProjectsData} from "../../resources/ProjectsData";
+import {SchoolProjectsData} from "../../resources/SchoolProjectsData";
+import {PersonalProjectsData} from "../../resources/PersonalProjectsData";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -9,8 +10,15 @@ const Projects = () => {
     return (
         <>
             <h1>{data.title}</h1>
+
+            <h2>Personal projects</h2>
             <div className="project-container">
-                {ProjectsData.map((project, index) => <ProjectItem key={index} item={project} />)}
+                {PersonalProjectsData.map((project, index) => <ProjectItem key={index} item={project}/>)}
+            </div>
+
+            <h2>School Projects</h2>
+            <div className="project-container">
+                {SchoolProjectsData.map((project, index) => <ProjectItem key={index} item={project}/>)}
             </div>
         </>
     );
