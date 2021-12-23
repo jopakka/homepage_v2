@@ -1,0 +1,12 @@
+main {
+    margin: 0 auto;
+    flex-grow: 1;
+    padding: 50pt 20pt 0;
+    max-width: 1200px;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 20pt 10pt 0;
+    }
+}

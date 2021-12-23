@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700;800&display=swap');
+
+:root {
+  --nav-bg-color: #1f2228; /* #373c45 */
+  --main-bg-color: #373c45; /* #1f2228 */
+  --primary-text-color: white;
+  --nav-width: 100pt;
+  --nav-item-height: 100pt;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+p {
+  text-align: justify;
+  padding-bottom: 1.2em;
+  line-height: 1.2em;
+  max-width: 800px;
+}
+
+.center {
+  width: fit-content;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
 }

@@ -1,0 +1,32 @@
+.project-item {
+    flex-basis: 200pt;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.project-item img {
+    align-self: center;
+    height: 100pt;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0.2em;
+}
+
+.project-item h3 {
+    font-size: 1.4em;
+    padding-bottom: 0.5em;
+}
+
+.project-item p {
+    text-align: start;
+}
+
+@media only screen and (max-width: 600px) {
+    .project-item {
+        flex-basis: 150pt;
+    }
+
+    .project-item img {
+        height: 75pt;
+    }
+}

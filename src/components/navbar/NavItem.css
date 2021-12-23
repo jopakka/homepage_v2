@@ -1,0 +1,33 @@
+.nav-item {
+    height: 100pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 40pt;
+    height: 40pt;
+}
+
+.selectable {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: var(--main-bg-color);
+}
+
+/* Responsive stuff for mobile */
+@media only screen and (max-width: 600px) {
+    .nav-icon {
+        display: none;
+    }
+
+    .nav-item {
+        padding: 10pt;
+        height: auto;
+        flex-grow: 1;
+    }
+}

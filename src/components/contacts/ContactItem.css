@@ -1,0 +1,12 @@
+.contact-item {
+    display: inline-block;
+    margin: 10px;
+    font-size: 80px;
+    line-height: 1em;
+    height: 1em;
+}
+
+.contacts a:link, .contacts a:visited, .contacts a:hover, .contacts a:active {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
