@@ -2,6 +2,13 @@
     flex-basis: 200pt;
     flex-grow: 0;
     flex-shrink: 0;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    padding: 4pt;
+}
+
+.project-item:hover {
+    box-shadow: 0 0 10pt var(--accent-color);
 }
 
 .project-item img {

@@ -4,11 +4,11 @@ import "./ProjectItem.css";
 
 const ProjectItem = ({item}) => {
     return (
-        <div className="project-item">
+        <a href={item.url} className="project-item">
             <img src={item.img} alt={item.title}/>
             <h3>{item.title}</h3>
             <p>{item.desc}</p>
-        </div>
+        </a>
     );
 };
 
