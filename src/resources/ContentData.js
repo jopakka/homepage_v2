@@ -1,7 +1,7 @@
 export const ContentData = {
     navbar: {
         profile: {
-            src: "https://github.com/jopakka/homepage-content/blob/main/pictures/cropped_bw.png?raw=true",
+            src: "./res/cropped_bw.png",
             alt: "Picture of me"
         },
         links: [
@@ -15,7 +15,7 @@ export const ContentData = {
         title: "I am Joonas Niemi.",
         intro: "A programmer.",
         image: {
-            src: "https://github.com/jopakka/homepage-content/blob/main/pictures/cropped_bw.png?raw=true",
+            src: "./res/cropped_bw.png",
             alt: "This is me"
         }
     },
