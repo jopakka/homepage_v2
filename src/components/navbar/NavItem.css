@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.nav-item:hover {
+    color: var(--accent-color);
+}
+
 .nav-icon {
     width: 40pt;
     height: 40pt;
