@@ -1,25 +1,8 @@
 .project-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
     gap: 20pt;
     padding-bottom: 2em;
-}
-
-.project-container:after {
-    content: "";
-    flex-basis: 200pt;
-    flex-grow: 1;
-    flex-shrink: 0;
-}
-
-@media only screen and (max-width: 600px) {
-    .project-container {
-        justify-content: center;
-    }
-
-    .project-container:after {
-        flex-basis: 150pt;
-    }
 }
