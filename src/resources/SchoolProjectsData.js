@@ -2,43 +2,43 @@ export const SchoolProjectsData = [
     {
         title: "ClimbStation",
         url: "https://github.com/jopakka/climbstation-project",
-        desc: "Android application to control ClimbStation device",
+        desc: "An Android application to control ClimbStation device",
         img: "./res/climbStation.jpg"
     },
     {
         title: "HelsinkiTour",
         url: "https://github.com/jopakka/HelsinkiTour",
-        desc: "An android application which shows user different activities, events and places around Helsinki, which user might find interesting to visit",
+        desc: "An Android application, which shows the user different activities, events and places around Helsinki, which the user might be interested to visit",
         img: "./res/helsinkiTour.jpg"
     },
     {
         title: "GamerVibe website",
         url: "https://github.com/jopakka/GamerVibe-Website",
-        desc: "Instagram for gamers, a place to share in game images and gamer persona",
+        desc: "Instagram for gamers, a place to share in-game images and gamer persona",
         img: "./res/gamervibe.png"
     },
     {
         title: "Guess That Word",
         url: "https://github.com/jopakka/word-quiz-project",
-        desc: "Android game where user choose his/her language and language which he/she wants to learn, then game choose random word and make answers that are close to that word",
+        desc: "An Android game where the user chooses their first language and a language that they want to learn. Then the game chooses a random word and makes up answers that are close to that word",
         img: "./res/guessThatWord.png"
     },
     {
         title: "Jack The Avenger",
         url: "https://github.com/jopakka/Jack-The-Avenger",
-        desc: "You play as a Jack and you try to avenge for local mafia for what they did for your father",
+        desc: "You play as Jack and you try to get revenge on the local mafia for what they did to your father",
         img: "./res/jacktheavenger.png"
     },
     {
         title: "MeFoodDiary",
         url: "https://github.com/jopakka/MeFoodDiary",
-        desc: "Food diary",
+        desc: "A food diary",
         img: "./res/mefooddiary.png"
     },
     {
         title: "Zumo bot",
         url: "https://github.com/jopakka/Zumo-bot-project",
-        desc: "Simple bot that can follow line, battle in sumo and solve simple maze",
+        desc: "A simple bot that can follow a line, do a sumo wrestle and solve a simple maze",
         img: "./res/zumo.png"
     }
 ]

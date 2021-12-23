@@ -26,7 +26,7 @@ export const PersonalProjectsData = [
     {
         title: "Kenraali bot",
         url: "https://github.com/jopakka/Kenraali-bot",
-        desc: "Discord bot",
+        desc: "A Discord bot",
         img: "./res/kenraalibot.png"
     }
 ]

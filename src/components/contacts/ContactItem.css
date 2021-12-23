@@ -4,9 +4,9 @@
     font-size: 80px;
     line-height: 1em;
     height: 1em;
+    color: var(--primary-text-color);
 }
 
-.contacts a:link, .contacts a:visited, .contacts a:hover, .contacts a:active {
-    color: var(--primary-text-color);
-    text-decoration: none;
+.contact-item:hover {
+    color: var(--accent-color);
 }
