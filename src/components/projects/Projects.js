@@ -15,6 +15,7 @@ const Projects = () => {
             <div className="project-container">
                 {PersonalProjectsData.map((project, index) => <ProjectItem key={index} item={project}/>)}
             </div>
+            <h3>And many more</h3>
 
             <h2>School Projects</h2>
             <div className="project-container">
