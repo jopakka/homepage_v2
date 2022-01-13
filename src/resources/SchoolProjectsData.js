@@ -12,6 +12,12 @@ export const SchoolProjectsData = [
         img: "./res/helsinkiTour.jpg"
     },
     {
+        title: "InMotion",
+        url: "https://github.com/jopakka/InMotion",
+        desc: "iOS project application for our iOS course in Metropolia UAS",
+        img: "./res/inmotion.jpg"
+    },
+    {
         title: "Officium",
         url: "https://github.com/jopakka/WBMA2021Project",
         desc: "Officium is a job marketplace for odd jobs. Officium app is by made React Native",
