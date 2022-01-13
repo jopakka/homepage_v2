@@ -42,6 +42,12 @@ export const SchoolProjectsData = [
         img: "./res/mefooddiary.png"
     },
     {
+        title: "Metropoker",
+        url: "https://github.com/jopakka/metropoker",
+        desc: "Website where user can play poker and blackjack. First website made on school",
+        img: "./res/metropoker.jpg"
+    },
+    {
         title: "Zumo bot",
         url: "https://github.com/jopakka/Zumo-bot-project",
         desc: "A simple bot that can follow a line, do a sumo wrestle and solve a simple maze",
