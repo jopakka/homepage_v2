@@ -2,7 +2,7 @@ export const PersonalProjectsData = [
     {
         title: "Maze generator",
         url: "https://jopakka.github.io/maze/",
-        desc: "Generates maze using recursive depth-first search and generates path from top left corner to bottom right corner using A* algorithm",
+        desc: "Generates a maze using recursive depth-first search and generates a path from top left corner to bottom right corner using A* algorithm",
         img: "./res/mazeGenerator.jpg"
     },
     {
@@ -14,13 +14,13 @@ export const PersonalProjectsData = [
     {
         title: "The Strongest Hedgehog",
         url: "https://jopakka.itch.io/the-strongest-hedgehog",
-        desc: "You play as an hedgehog who is captured by evil Heikki. He has thrown you in to a cell, from which you have to escape",
+        desc: "You play as a hedgehog who is captured by the evil Heikki. He has thrown you in to a cell, from which you have to escape",
         img: "./res/theStrongestHedgehog.png"
     },
     {
         title: "Unsubscribe",
         url: "https://jopakka.itch.io/unsubscribe",
-        desc: "Game about unsubscribing MrJopakka's youtube channel",
+        desc: "A game about unsubscribing MrJopakka's YouTube channel",
         img: "./res/unsubscribe.png"
     },
     {

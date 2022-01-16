@@ -2,7 +2,7 @@ export const SchoolProjectsData = [
     {
         title: "ClimbStation",
         url: "https://github.com/jopakka/climbstation-project",
-        desc: "An Android application to control ClimbStation device",
+        desc: "An Android application for controlling the ClimbStation device",
         img: "./res/climbStation.jpg"
     },
     {
@@ -20,7 +20,7 @@ export const SchoolProjectsData = [
     {
         title: "Officium",
         url: "https://github.com/jopakka/WBMA2021Project",
-        desc: "Officium is a job marketplace for odd jobs. Officium app is by made React Native",
+        desc: "Officium is a job marketplace for odd jobs. Made with React Native",
         img: "./res/officium.png"
     },
     {
@@ -32,7 +32,7 @@ export const SchoolProjectsData = [
     {
         title: "Guess That Word",
         url: "https://github.com/jopakka/word-quiz-project",
-        desc: "An Android game where the user chooses their first language and a language that they want to learn. Then the game chooses a random word and makes up answers that are close to that word",
+        desc: "An Android game where the user chooses their first language and a language that they want to learn. The game then chooses a random word and makes up answers close to that word",
         img: "./res/guessThatWord.png"
     },
     {
@@ -50,13 +50,13 @@ export const SchoolProjectsData = [
     {
         title: "Metropoker",
         url: "https://github.com/jopakka/metropoker",
-        desc: "Website where user can play poker and blackjack. First website made on school",
+        desc: "Website where the user can play poker and blackjack. First website made at school",
         img: "./res/metropoker.jpg"
     },
     {
         title: "Zumo bot",
         url: "https://github.com/jopakka/Zumo-bot-project",
-        desc: "A simple bot that can follow a line, do a sumo wrestle and solve a simple maze",
+        desc: "A simple bot that can follow a line, sumo wrestle and solve a simple maze",
         img: "./res/zumo.png"
     }
 ]
