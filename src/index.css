@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 :root {
   --nav-bg-color: #1f2228; /* #373c45 */
@@ -27,6 +28,7 @@ h1 {
   font-size: 4em;
   text-align: center;
   padding-bottom: 0.5em;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -42,6 +44,7 @@ h3 {
 
 p {
   text-align: justify;
+  font-size: 1.1em;
   padding-bottom: 1.2em;
   line-height: 1.2em;
   max-width: 800px;
